@@ -9,5 +9,10 @@ public class TestMap2 {
         map.put("apple", "100");
         map.put("orange", "50");
         map.put("banana", "200");
+
+        // 下面为08202提交
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            System.out.println("key = " + entry.getKey() + ", value = " + entry.getValue());
+        }
     }
 }
